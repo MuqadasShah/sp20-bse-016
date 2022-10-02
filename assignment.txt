@@ -1,0 +1,56 @@
+question 1
+let str='23716'
+console.log(k.charAt(k.length-4))
+question 2
+let str="23617"
+k.split(",")
+Array.from(k)
+array=Object.assign([],str)
+var numbers = array.map(Number);
+console.log(numbers)
+console.log(numbers.reduce((partialSum, a) => partialSum + a, 0));
+question 3
+let str="23617"
+let total=0
+k.split(",")
+Array.from(k)
+array=Object.assign([],str)
+var numbers = array.map(Number);
+console.log(numbers)
+for (let i = 0; i < numbers.length; i++) {
+    if(numbers[i]%2==0){
+         total=+array[i]
+    }
+}
+console.log(total)
+question 4
+for (let i = 0; i < 10; i++) {
+    console.log(i**2)
+
+for (let i = 0; i < 10; i++) {
+    console.log(i**3)
+Question 5
+var a = prompt("Enter The Query"),b = parseInt(a),z=0;
+ if(b) {
+  while(b>0)
+   var r= b%10, z= z*10+r, b = Math.floor(b/10);
+  console.log("Entered Query : "+ a +"<br> Given Number In Reverse Order : "+ z);
+ }
+ else {
+  a = a.search(/[aeiouAEIOU]/);
+  console.log("The First Occurence Of Vowel is at : "+ (a+1));
+ }
+question 6
+
+let val=parseInt(prompt("enter val"))
+let x = Math.random() * 10;
+if(val==x){console.log("you win")
+          }else{console.log("you lose")}
+Question 7
+let arr=[15,11,12,10,56]
+for (let i = 0; i < arr.length; i++) {
+    if(arr[i]==10){console.log(i)}
+}
+QUESTION 8
+let str="comsats"
+str.split('').sort().join('')
